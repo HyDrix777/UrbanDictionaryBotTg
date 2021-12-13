@@ -13,7 +13,7 @@ class Data:
                 "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
             )
         ],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠 Return Home", callback_data="home")],
     ]
 
     # Rest Buttons
@@ -23,15 +23,15 @@ class Data:
             InlineKeyboardButton("How to Use ❔", callback_data="help")
         ],
         [
-            InlineKeyboardButton("🎪 About The Bot 🎪", callback_data="about")
+            InlineKeyboardButton("🚫 About The Bot", callback_data="about")
         ],
         [
             InlineKeyboardButton(
                 "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
             )
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("📣 Channel", url="https://t.me/Tg_Galaxy")],
+        [InlineKeyboardButton("👥 Group", url="https://t.me/Starjdjdjdjdjd")],
     ]
 
     # Help Message
@@ -55,13 +55,13 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Thanks for the sopport
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/UrbanDictionaryBot)
+Source Code : [Click Here](https://github.com/StatsIndustries/UrbanallDictionaryBotTgpg)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Thanks for using me 🙂
     """
