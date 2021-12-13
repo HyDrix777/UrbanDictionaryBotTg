@@ -29,8 +29,9 @@ class Data:
             InlineKeyboardButton(
                 "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
             )
-            
-            ]
+        [,
+        [InlineKeyboardButton("📣 Channel", url="https://t.me/Tg_Galaxy")],
+    ]
 
     # Help Message
     HELP = """
