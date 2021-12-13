@@ -3,17 +3,17 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = "Hey {}. \n\nWelcome to {} \n\nI can search words from Urban Dictionary and give them to you. I will provide it's definition as well as example \n\nYou can send any word here or Try using my inline mode. \n\nBy @StarkBots"
+    START = "Hey {}. \n\nWelcome to {} \n\nI can search words from Urban Dictionary and give them to you. I will provide it's definition as well as example \n\nYou can send any word here or Try using my inline mode."
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔍 Search Inline 🔍", switch_inline_query_current_chat="")],
+        [InlineKeyboardButton("🔍 Search Inline", switch_inline_query_current_chat="")],
         [
             InlineKeyboardButton(
                 "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
             )
         ],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠 Return Home", callback_data="home")],
     ]
 
     # Rest Buttons
@@ -23,16 +23,14 @@ class Data:
             InlineKeyboardButton("How to Use ❔", callback_data="help")
         ],
         [
-            InlineKeyboardButton("🎪 About The Bot 🎪", callback_data="about")
+            InlineKeyboardButton("🤖 About Bot", callback_data="about")
         ],
         [
             InlineKeyboardButton(
                 "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
             )
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
-    ]
+
+            ]
 
     # Help Message
     HELP = """
@@ -55,7 +53,7 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Thanks for your support
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/UrbanDictionaryBot)
 
@@ -63,5 +61,5 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Thanks for using me 😊
     """
