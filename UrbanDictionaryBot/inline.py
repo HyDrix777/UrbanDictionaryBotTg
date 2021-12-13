@@ -21,27 +21,27 @@ async def answer(udbot, query):
                         "This is Urban Dictionary Bot. You can search any word or words sequence or even get random word here! \n\n**Ways** \n\n"
                         + Data.HELP
                     ),
-                    url="https://t.me/StarkBots",
+                    url="https://t.me/Tg_Galaxy",
                     description="Welcome Aboard Homie!",
-                    thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
+                    thumb_url="https://telegra.ph/file/6e46aa7579712d40d2f47.jpg",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
                                 InlineKeyboardButton(
-                                    "🔍 Search Words 🔍",
+                                    "🔍 Search Words",
                                     switch_inline_query_current_chat="",
                                 )
                             ],
                             [
                                 InlineKeyboardButton(
-                                    "♥ More Amazing bots ♥",
-                                    url="https://t.me/StarkBots",
+                                    "♥ Channel",
+                                    url="https://t.me/Sddjddjdjs",
                                 )
                             ],
                             [
                                 InlineKeyboardButton(
-                                    "🎨 Support Group 🎨",
-                                    url="https://t.me/StarkBotsChat",
+                                    "❤️ Support Group",
+                                    url="https://t.me/Stjsjsjsndnd",
                                 )
                             ],
                         ]
@@ -59,9 +59,9 @@ async def answer(udbot, query):
                 InlineQueryResultArticle(
                     title=f"Random Word: {word}",
                     input_message_content=InputTextMessageContent(rand_string),
-                    url="https://t.me/StarkBots",
+                    url="https://t.me/Tg_Galaxy",
                     description="Any Random Word",
-                    thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
+                    thumb_url="https://telegra.ph/file/6e46aa7579712d40d2f47.jpg",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -101,9 +101,9 @@ async def answer(udbot, query):
                     InlineQueryResultArticle(
                         title=f"{word}",
                         input_message_content=InputTextMessageContent(rep),
-                        url="https://t.me/StarkBots",
+                        url="https://t.me/Tg_Galaxy",
                         description=description,
-                        thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
+                        thumb_url="https://telegra.ph/file/6e46aa7579712d40d2f47.jpg",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
