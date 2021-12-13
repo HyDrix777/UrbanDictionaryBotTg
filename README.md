@@ -1,15 +1,3 @@
-# Urban Dictionary Bot [@TheUrbanDictBot](https://t.me/TheUrbanDictBot)
-
-> A star ⭐ from you means a lot to us!
-
-<p align="center"><a href="https://www.github.com/StarkBotsIndustries/UrbanDictionaryBot"><img src="https://telegra.ph/file/c6f22f783c9adce4d2e46.jpg" width="5000"></a></p>
-
-Telegram bot for Urban Dictionary.
-
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-## Usage
-
 ### Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkBotsIndustries/UrbanDictionaryBot)
