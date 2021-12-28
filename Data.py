@@ -20,7 +20,7 @@ class Data:
     buttons = [
         [
             InlineKeyboardButton("Search Inline 🔍", switch_inline_query_current_chat=""),
-            InlineKeyboardButton("How to Use ❔", callback_data="help")
+            InlineKeyboardButton("🆘How to Use🆘", callback_data="help")
         ],
         [
             InlineKeyboardButton("🚫 About The Bot", callback_data="about")
