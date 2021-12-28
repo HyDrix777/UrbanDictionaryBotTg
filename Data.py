@@ -10,7 +10,7 @@ class Data:
         [InlineKeyboardButton("🔍 Search Inline 🔍", switch_inline_query_current_chat="")],
         [
             InlineKeyboardButton(
-                "➕ Add to your Group ➕", url="https://t.me/DictionaryBot_Xbot?startgroup=True"
+                "➕ Add to your Group ➕", url="https://t.me/DictionaryXrobot?startgroup=True"
             )
         ],
         [InlineKeyboardButton(text="🏠 Return Home", callback_data="home")],
