@@ -29,7 +29,9 @@ class Data:
             InlineKeyboardButton(
                 "➕ Add to your Group ➕", url="https://t.me/DictionaryXrobot?startgroup=True"
             )
-        
+        ],
+        [InlineKeyboardButton("📣 Channel", url="https://t.me/Tg_Galaxy")],
+        [InlineKeyboardButton("👥 Group", url="https://t.me/Starjdjdjdjdjd")],
     ]
 
     # Help Message
